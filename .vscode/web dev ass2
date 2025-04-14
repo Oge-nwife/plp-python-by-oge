@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Agricultural produce</title>
+</head>
+<body>
+    <h1>Agro farms</h1>
+    <ol>
+        <li>Fruits</li>
+    <li>vegetables</li>
+<li>farm equipment</li>
+<li>livetock</li>
+</ol>
+<div class="image container">
+    <img src="https://www.pexels.com/photo/colorful-array-of-fresh-vegetables-at-seattle-market-30553626/" alt="fresh vegetables">
+</div>
+<h2>contact info</h2>
+<table><thead>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile number</th>
+        <th>Email</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Lauretta</td>
+        <td>20, Blue ave,Lagos</td>
+        <td>09044332211</td>
+        <td>laugal@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Enoch</td>
+        <td>2a,sammon residence,Kano.</td>
+        <td>079431225</td>
+        <td>eno254@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Amanda</td>
+        <td>house 3, navy estate,ibakpo</td>
+        <td>08944332211</td>
+    </tr>
+    <tr>
+        <td>johnson</td>
+        <td>wing 3,block 2,chevron estate, Abuja.</td>
+        <td>07088992211</td>
+        <td>johnsonnana@gmail.com</td>
+    </tr>
+    <tr>
+        <td>gowon</td>
+        <td>Achara layout,enugu</td>
+        <td>0804532167</td>
+        <td> gowana223@gmail.com</td>
+    </tr>
+</tbody>
+</table>
+<h2>Registration form</h2>
+<form action="$"method="post>
+<div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" id="email" name="email" required>
+</div>
+<div class="form-group">
+    <label for="phone">phone number:</label>
+    <input type="tel" id="phone" name="phone" required>
+</div>
+<div class="form-group">
+    <label for="Address">Address:</label>
+    <textarea id="address" name="address" rows="3" required></textarea>
+</div>
+<div class="form-group">
+    <label for="state">state</label>
+    <select id="state" name="state" required>
+        <option value="">select state</option>
+        <option value="lagos">Lagos</option>
+        <option value="Abuja">Abuja</option>
+        <option value="Kano">Kano</option>
+        <option value="enugu">Enugu</option>
+        <option value="others">others</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="interests">Areas of interests:</label>
+</div>
+<div>
+    <input type="checkbox" id="fruits" name="interest" value="fruits">
+    <label for="Fruits" style="display:inline;"></label>
+</div>
+<div>
+    <input type="checkbox" id="equipment" name="intersts" value="equipment">
+    <label for="equipment" style="display: inline;">Farm equipment</label>
+</div>
+<div>
+    <input type="checkbox" id="livestock" name="interests" value="livestock">
+    <label for="livestock" style="display: inline;">livestock</label>
+</div>
+<button type="submit">Register</button></form>"
+</body></html>
